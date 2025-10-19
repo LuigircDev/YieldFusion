@@ -68,16 +68,17 @@ Sigue estos pasos para configurar el entorno de desarrollo local.
 **Pasos de Instalación:**
 
 1. **Clonar el repositorio:**  
-   git clone \<URL\_DEL\_REPOSITORIO\>  
-   cd \<NOMBRE\_DEL\_PROYECTO\>
+   git clone https://github.com/LuigircDev/YieldFusion
+   cd YieldFusion
 
 2. **Instalar dependencias:**  
    npm install
 
-3. **Configurar variables de entorno:**  
+3. **Configurar variables de entorno:**
+   # ESTO YA ESTÁ HECHO
    * Necesitas un projectId de WalletConnect para que RainbowKit funcione.  
    * Ve a [WalletConnect Cloud](https://cloud.walletconnect.com/).  
    * Crea un nuevo proyecto y copia tu projectId.  
    * Pégalo en el archivo src/lib/web3.ts en la línea correspondiente.  
-4. **Ejecutar el servidor de desarrollo:**  
+5. **Ejecutar el servidor de desarrollo:**  
    npm run dev  
