@@ -1,4 +1,4 @@
-import { Fragment, useState } from 'react';
+import { useState } from 'react';
 import { useAppStore } from '../store/useAppStore';
 
 // Añadimos 'export' a la función para que pueda ser importada.

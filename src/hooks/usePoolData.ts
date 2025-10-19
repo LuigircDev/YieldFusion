@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 // Tipos y datos simulados
-type Pool = {
+export type Pool = {
   id: number;
   name: string;
   asset: string;
