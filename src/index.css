@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-white selection:bg-indigo-500 selection:text-white;
+  }
+}
+
+@layer components {
+  .glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    @apply rounded-3xl; /* More rounded corners */
+  }
+
+  .modal-glass {
+    background: rgba(17, 24, 39, 0.8);
+    backdrop-filter: blur(12px);
+  }
+
+  .primary-button {
+    background: linear-gradient(90deg, #4F46E5, #818CF8);
+    transition: all 0.3s ease;
+  }
+
+  .primary-button:hover {
+    box-shadow: 0 0 20px rgba(79, 70, 229, 0.7);
+  }
+
+  .secondary-button {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: background-color 0.3s ease;
+  }
+
+  .secondary-button:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+}
